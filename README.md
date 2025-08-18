@@ -1,65 +1,80 @@
-# 🚗 Car Rental System Showcase
+🚗 Car Rental System in Java
+📌 Project Overview
 
-A responsive and modern front-end design for a car rental website, built with core web technologies. This project showcases a clean user interface for Browse vehicles and understanding the rental process.
+This project is a Car Rental System built using Object-Oriented Programming (OOP) principles in Java.
+It simulates a real-world car rental service where customers can rent cars, and the system keeps track of rentals.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/abhishekK2310/car-rental-system/blob/main/LICENSE)
-[![Repo Size](https://img.shields.io/github/repo-size/abhishekK2310/car-rental-system)](https://github.com/abhishekK2310/car-rental-system)
+The project demonstrates OOP concepts like:
 
-### [➡ Live Demo (Coming Soon)](#)
+Encapsulation
 
----
+Abstraction
 
-## 📸 Project Showcase
+Constructors
 
-Here's a glimpse of the homepage design.
+Getters & Setters
 
-Replace the image path below with your actual screenshot!
-![Car Rental System Showcase](./assets/project-showcase.png)
+Object Associations (Customer ↔ Car ↔ Rental)
 
-## ✨ Features
+🛠 Features
 
-- *Responsive Design:* A mobile-first approach ensures the site looks great on all devices, from desktops to smartphones.
-- *Vehicle Showcase:* A clean and attractive grid to display available cars with key details:
-  - Model and Make
-  - Price per day
-  - Fuel type
-  - Transmission type
-- *Simple "How It Works" Section:* A 3-step guide visually explaining the booking process for users.
-- *Interactive UI:* Smooth scrolling and hover effects for a modern user experience.
-- *Cross-Browser Compatibility:* Built using standard web technologies for consistent performance across modern browsers.
+Add new cars to the rental system
 
-## 🛠 Tech Stack
+Rent a car if available
 
-This project is built exclusively with front-end technologies:
+Track rented cars with rental details (customer, car, duration)
 
-| Technology | Description |
-| :--- | :--- |
-| *HTML5* | Semantic markup for structure and content. |
-| *CSS3* | Custom styling, Flexbox, and Grid for responsive layouts. |
-| *JavaScript* | Core interactivity and DOM manipulation. |
+Prevent renting if the car is already booked
 
-## 🚀 Getting Started
+Print rental records
 
-To run this project locally, simply follow these steps:
+📂 Project Structure
+CarRentalSystem/
+│
+├── Car.java          # Represents a Car with availability status
+├── Customer.java     # Represents a Customer
+├── Rental.java       # Represents a Rental record (Car + Customer + Days)
+├── CarRentalSystem.java  # Main system to manage rentals
+└── Main.java         # Entry point of the program
 
-1.  *Clone the repository:*
-    sh
-    git clone [https://github.com/abhishekK2310/car-rental-system.git](https://github.com/abhishekK2310/car-rental-system.git)
-    
+💻 Technologies Used
 
-2.  *Navigate to the project directory:*
-    sh
-    cd car-rental-system
-    
+Java (Core Java, OOP Concepts)
 
-3.  **Open index.html in your browser:**
-    Simply double-click the index.html file, or right-click and choose "Open with" your favorite browser. No complex setup is required!
+IntelliJ IDEA / Eclipse (any IDE)
 
-## 📄 License
+🚀 How to Run
 
-This project is open-source and available under the *MIT License*. See the LICENSE file for more details.
+Clone this repository:
 
-> *Note:* It's recommended to create a LICENSE file in your repository. You can do this easily on GitHub by clicking "Add file" > "Create new file" and typing LICENSE as the filename. GitHub will then give you a template to choose from. The MIT License is a great choice for portfolio projects.
+git clone https://github.com/your-username/Car-Rental-System.git
+
+
+Open the project in IntelliJ IDEA / Eclipse.
+
+Compile and run Main.java.
+
+The console will simulate the car rental system.
+
+📸 Sample Output
+Available Cars: 
+Car: Honda City, Available: true
+Car: Hyundai Creta, Available: true
+
+Customer John rents Honda City for 5 days.
+
+Car: Honda City, Available: false
+Car: Hyundai Creta, Available: true
+
+🎯 Learning Outcomes
+
+Understanding how to structure a project using multiple classes
+
+Applying Encapsulation & Abstraction in a real-world example
+
+Creating associations between objects (Car ↔ Customer ↔ Rental)
+
+Managing object states (available / rented)
 
 ## 📧 Contact
 
