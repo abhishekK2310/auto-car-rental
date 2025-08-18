@@ -41,7 +41,7 @@ CarRentalSystem/
 
 Java (Core Java, OOP Concepts)
 
-IntelliJ IDEA / Eclipse (any IDE)
+IntelliJ IDEA 
 
 🚀 How to Run
 
