@@ -47,7 +47,7 @@ IntelliJ IDEA
 
 Clone this repository:
 
-git clone https://github.com/your-username/Car-Rental-System.git
+git clone https://github.com/abhishekK2310/Car-Rental-System.git
 
 
 Open the project in IntelliJ IDEA / Eclipse.
